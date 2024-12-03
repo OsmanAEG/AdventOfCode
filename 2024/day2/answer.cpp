@@ -84,10 +84,6 @@ public:
 
 private:
   std::vector<std::vector<int>> reports;
-
-  std::unordered_map<int, int> times_second;
-
-  std::string code;
 };
 
 int main() {
